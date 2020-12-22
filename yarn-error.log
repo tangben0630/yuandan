@@ -1,0 +1,60 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add yargs-parser --save
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/Users/tang/Desktop/game/javenIV/node_modules/@szmarczak/http-timer'
+
+npm manifest: 
+  {
+    "name": "javenIV",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "client:aaa": "echo $npm_package_version",
+      "client:test": "scripty",
+      "client:dev": "scripty",
+      "client:build": "scripty",
+      "client:prod": "scripty",
+      "server:dev": "scripty",
+      "server:prod": "scripty",
+      "server:test": "scripty"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "co": "^4.6.0",
+      "koa": "^2.13.0",
+      "koa-router": "^10.0.0",
+      "koa-simple-router": "^0.2.0",
+      "koa-static": "^5.0.0",
+      "koa-swig": "^2.2.1",
+      "koa-view": "^2.1.4",
+      "lodash": "^4.17.20",
+      "module-alias": "^2.2.2"
+    },
+    "devDependencies": {
+      "cross-env": "^7.0.3",
+      "nodemon": "^2.0.6",
+      "scripty": "^2.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

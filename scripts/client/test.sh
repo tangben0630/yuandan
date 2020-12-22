@@ -1,0 +1,1 @@
+echo $npm_package_version

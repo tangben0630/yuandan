@@ -1,0 +1,1 @@
+cross-env NODE_ENV=development nodemon server/app.js
